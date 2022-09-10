@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========Icon========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--========CSS========-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Snikers</title>
+</head>
+
+<body>
+
+    <!--========Container========-->
+    <section class="container">
+        <div class="produto">
+            <img id="imagemFrente" src="images/nike1.png" alt="Foto Tênis Nike Vermelho">
+            <img id="imagemTras" src="images/nike2.png" alt="Foto Tênis Nike Preto">
+            <div class="produto-card" id="caixaTenis">
+                <div class="produto-frente">
+                    <div class="produto-top">
+                        <h1>Nike</h1>
+                    </div>
+                    <div class="produto-bottom">
+                        <p>Tênis Nike 2022</p>
+                        <h2>Nike Air <br><span>R$ 99,99</span></h2>
+                        <a class="btn" href="#"><i class="uil uil-bill"></i> Compre agora</a>
+                        <div class="cores">
+                            <div class="item item1">
+                                <img src="images/nike2.png" onclick="rodarDireita()" alt="Tênis Nike Running 2022">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto-tras">
+                    <div class="produto-top produto-top2">
+                        <h1>Nike</h1>
+                    </div>
+                    <div class="produto-bottom">
+                        <p>Tênis Nike 2022</p>
+                        <h2>Nike Air <br><span>R$ 99,99</span></h2>
+                        <a class="btn btn2" href="#"><i class="uil uil-bill"></i> Compre agora</a>
+                        <div class="cores">
+                            <div class="item">
+                                <img src="images/nike1.png" onclick="rodarEsquerda()" alt="Tênis Nike Running 2022">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="produto-left"></div>
+                <div class="produto-right"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
